@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'aspect_ratio_tutorial.dart';
 import 'desktop.dart';
 import 'mobile.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: const MyApp(),
+    home: const AspectRatioTutorial(),
   ));
 }
 
